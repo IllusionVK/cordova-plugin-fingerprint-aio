@@ -1,4 +1,7 @@
 # Cordova Plugin Fingerprint All-In-One
+
+This plugin is forked from [NiklasMerz/cordova-plugin-fingerprint-aio](https://github.com/NiklasMerz/cordova-plugin-fingerprint-aio) to set Swift version to 4.2 for itself to fix the conflict with cordova-plugin-iosrtc.
+
 ## For **Android** and **iOS**
 
 [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/NiklasMerz/cordova-plugin-fingerprint-aio/master/LICENSE)

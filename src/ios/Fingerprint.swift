@@ -79,7 +79,7 @@ enum PluginError:Int {
 
     func justAuthenticate(_ command: CDVInvokedUrlCommand) {
         let authenticationContext = LAContext();
-        var errorResponse: [AnyHashable: Any] = [
+        let errorResponse: [AnyHashable: Any] = [
             "message": "Something went wrong"
         ];
         var pluginResult = CDVPluginResult(status: CDVCommandStatus_ERROR, messageAs: errorResponse);
